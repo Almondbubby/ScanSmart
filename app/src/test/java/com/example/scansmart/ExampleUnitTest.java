@@ -1,4 +1,4 @@
-package com.example.nutritionscan;
+package com.example.scansmart;
 
 import org.junit.Test;
 

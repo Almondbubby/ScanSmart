@@ -4,37 +4,46 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".Goal"
     android:orientation="vertical"
     android:gravity="center_horizontal">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/gender"
+        android:text="@string/goal"
         android:gravity="center"
         android:textSize="40sp"
         android:layout_marginTop="100dp" />
 
     <Button
-        android:id="@+id/maleButton"
+        android:id="@+id/loseButton"
         android:layout_width="300dp"
         android:layout_height="60dp"
-        android:text="@string/male"
-        android:layout_marginTop="150dp"
+        android:text="@string/lose_weight"
+        android:layout_marginTop="120dp"
         android:backgroundTint="#36ae47"
         android:textColor="#b1e135"
         android:textStyle="bold"/>
 
     <Button
-        android:id="@+id/femaleButton"
+        android:id="@+id/gainButton"
         android:layout_width="300dp"
         android:layout_height="60dp"
-        android:text="@string/female"
+        android:text="@string/gain_weight"
         android:layout_marginTop="20dp"
         android:backgroundTint="#36ae47"
         android:textColor="#b1e135"
         android:textStyle="bold"/>
 
+    <Button
+        android:id="@+id/maintainButton"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:text="@string/maintain_weight"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#36ae47"
+        android:textColor="#b1e135"
+        android:textStyle="bold"/>
 
 </LinearLayout>

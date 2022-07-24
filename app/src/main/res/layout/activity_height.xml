@@ -4,37 +4,42 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".Height"
     android:orientation="vertical"
     android:gravity="center_horizontal">
 
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/gender"
+        android:text="@string/height"
         android:gravity="center"
         android:textSize="40sp"
         android:layout_marginTop="100dp" />
 
-    <Button
-        android:id="@+id/maleButton"
+    <EditText
+        android:id="@+id/feetEdit"
         android:layout_width="300dp"
-        android:layout_height="60dp"
-        android:text="@string/male"
+        android:layout_height="wrap_content"
         android:layout_marginTop="150dp"
-        android:backgroundTint="#36ae47"
-        android:textColor="#b1e135"
-        android:textStyle="bold"/>
+        android:hint="@string/feet"
+        android:textSize="25sp"/>
+
+    <EditText
+        android:id="@+id/inchEdit"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:hint="@string/inches"
+        android:textSize="25sp"/>
+
 
     <Button
-        android:id="@+id/femaleButton"
-        android:layout_width="300dp"
-        android:layout_height="60dp"
-        android:text="@string/female"
-        android:layout_marginTop="20dp"
+        android:id="@+id/submitHeight"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
         android:backgroundTint="#36ae47"
         android:textColor="#b1e135"
-        android:textStyle="bold"/>
-
+        android:layout_marginTop="80dp"
+        android:text="@string/submit"/>
 
 </LinearLayout>

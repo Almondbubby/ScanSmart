@@ -4,37 +4,27 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity"
+    tools:context=".DisplayCal"
     android:orientation="vertical"
     android:gravity="center_horizontal">
 
     <TextView
+        android:id="@+id/textCal"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="@string/gender"
+        android:text="@string/goal"
         android:gravity="center"
         android:textSize="40sp"
-        android:layout_marginTop="100dp" />
+        android:layout_marginTop="250dp" />
 
     <Button
-        android:id="@+id/maleButton"
+        android:id="@+id/okButton"
         android:layout_width="300dp"
         android:layout_height="60dp"
-        android:text="@string/male"
-        android:layout_marginTop="150dp"
+        android:text="@string/ok"
+        android:layout_marginTop="250dp"
         android:backgroundTint="#36ae47"
         android:textColor="#b1e135"
         android:textStyle="bold"/>
-
-    <Button
-        android:id="@+id/femaleButton"
-        android:layout_width="300dp"
-        android:layout_height="60dp"
-        android:text="@string/female"
-        android:layout_marginTop="20dp"
-        android:backgroundTint="#36ae47"
-        android:textColor="#b1e135"
-        android:textStyle="bold"/>
-
 
 </LinearLayout>
