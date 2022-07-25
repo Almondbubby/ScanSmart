@@ -63,6 +63,8 @@ public class Home extends AppCompatActivity {
             public void onClick(View view) {
                 Globals.foodNames.add(addName.getText().toString());
                 Globals.calorieList.add(Integer.parseInt(addCal.getText().toString()));
+                Globals.calEaten += Integer.parseInt(addCal.getText().toString());
+                text.setText(Globals.cal-Globals.calEaten + " Calories Left");
                 reloadList();
                 addName.setVisibility(View.INVISIBLE);
                 addCal.setVisibility(View.INVISIBLE);
